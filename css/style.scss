@@ -1,0 +1,158 @@
+// Imports
+@import "variables.scss";
+@import "mixins.scss";
+
+
+
+// global Rules
+body {
+    font-size: $defaultFontSize;
+    color: $fontColor1;
+    font-family: 'Playfair Display', serif;
+}
+
+// header start
+header {
+    padding: 27px;
+
+    nav {
+        ul {
+            li {
+                a {
+                    padding-right: 105px !important;
+
+                    &:hover {
+                        color: #000000;
+                    }
+                }
+
+                &:last-child {
+                    a {
+                        padding-right: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo {
+    color: $fontFooter;
+    font-size: $titleFontSize;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+}
+
+// header end
+
+// blog start
+.blog_wrapper {
+    padding: 30px 0;
+
+    p {
+        @include defaultFont;
+        word-spacing: 1px;
+        letter-spacing: .5px;
+
+        &:first-of-type {
+            @include fontPattern3;
+        }
+
+        &:last-child {
+            margin-top: 35px;
+            @include fontPattern3;
+        }
+    }
+
+    h2 {
+        @include fontPattern2;
+    }
+}
+
+// blog end
+
+// contents start
+
+.item_wrapper {
+    p {
+        @include defaultFont;
+
+        &:first-of-type {
+            @include fontPattern3;
+        }
+    }
+
+    h2 {
+        @include fontPattern2;
+    }
+}
+
+// contents end
+
+// newsletter start
+.newsletter {
+    padding: 110px 0;
+    background-color: $bgc2;
+}
+
+.newsWrapper {
+
+    // position: absolute;
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    input {
+        padding: 6px 34px 6px 0;
+        border: none;
+        border-bottom: 1px solid black;
+        background: none;
+        width: 100%;
+
+    }
+
+    img {
+        top: 107px;
+        left: 352px;
+    }
+}
+
+// newsletter end
+
+// button start
+.button {
+    margin: 140px 0;
+
+    button {
+        background: none;
+        border: none;
+        border: 1px solid $fontColor1;
+        padding: 16px 39px;
+    }
+}
+
+.size20 {
+    font-size: 20px;
+    color: $fontColor1;
+
+    &:hover {
+        color: #000000 !important;
+        display: inline-block;
+    }
+}
+
+// button end
+
+// footer start
+footer {
+    padding: 30px 0 10px 0;
+    background-color: $bgc2;
+    color: black;
+
+    i{
+        color: $fontColor1;
+        padding-left: 10px;
+    }
+}
+
+// footer end

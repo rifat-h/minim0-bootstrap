@@ -1,0 +1,71 @@
+@media (max-width: 575.98px) {
+  header {
+    padding: 27px;
+  }
+  header nav a {
+    text-align: right;
+    margin-top: 12px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
+  }
+  .blog_wrapper P {
+    font-size: 13px;
+  }
+  .blog_wrapper h2 {
+    font-size: 32px;
+    color: #626262;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    padding: 27px;
+  }
+  header nav a {
+    text-align: right;
+    margin-top: 12px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
+  }
+  .blog_wrapper P {
+    font-size: 13px;
+  }
+  .blog_wrapper h2 {
+    font-size: 32px;
+    color: #626262;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 33px;
+  }
+  .button button {
+    padding: 15px 25px 15px 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    padding: 27px;
+  }
+  header nav a {
+    text-align: right;
+    margin-top: 12px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
+  }
+  .item_wrapper h2 {
+    font-size: 28px;
+  }
+  .button button {
+    padding: 15px 25px 15px 25px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
